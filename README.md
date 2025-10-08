@@ -22,28 +22,19 @@ Each row represents an individual loan application with the following features:
 - Loan_Status (Target)	Loan approved (Y / N)
 🧩 Project Workflow
 
-Data Preprocessing
+1. Data Preprocessing
+- Handling missing values
+- Encoding categorical variables
+- Scaling numerical features
+- Splitting dataset into training and testing sets
 
-Handling missing values
+2. Model Building
+- Machine Learning models tested: Logistic Regression, Decision Tree, Random Forest, etc.
+- Best performing model selected and saved as model.pkl
 
-Encoding categorical variables
+3. Pipeline Creation
+- Used ColumnTransformer and Pipeline from sklearn for seamless preprocessing + prediction.
 
-Scaling numerical features
-
-Splitting dataset into training and testing sets
-
-Model Building
-
-Machine Learning models tested: Logistic Regression, Decision Tree, Random Forest, etc.
-
-Best performing model selected and saved as model.pkl
-
-Pipeline Creation
-
-Used ColumnTransformer and Pipeline from sklearn for seamless preprocessing + prediction.
-
-Web Application
-
-Built an interactive UI using Streamlit.
-
-Users can input applicant details and get instant loan approval predictions.
+4. Web Application
+- Built an interactive UI using Streamlit.
+- Users can input applicant details and get instant loan approval predictions.
